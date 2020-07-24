@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form | DevTask</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="content">
+      <form onsubmit="" class="form-container">
+        <h2 class="form-heading">
+          Sign Up
+        </h2>
+        <div class="form-row">
+          <input type="text" id="username" class="form-textbox" required />
+          <label for="username" class="form-label">Username</label>
+          <span>Error message</span>
+        </div>
+        <div class="form-row">
+          <input type="text" id="firstname" class="form-textbox" required />
+          <label for="firstname" class="form-label">First Name</label>
+          <span>Error message</span>
+        </div>
+        <div class="form-row">
+          <input type="text" id="lastname" class="form-textbox" required />
+          <label for="lastname" class="form-label">Last Name</label>
+          <span>Error message</span>
+        </div>
+        <div class="form-row">
+          <input type="text" id="email" class="form-textbox" required />
+          <label for="email" class="form-label">Email address</label>
+          <span>Error message</span>
+        </div>
+        <div class="form-row" id="shower">
+          <i class="fa fa-eye" aria-hidden="true"></i>
+          <input type="password" id="password" class="form-textbox" required />
+          <label for="password" class="form-label">Password</label>
+          <span>Error message</span>
+        </div>
+        <div class="form-row">
+          <input
+            type="password"
+            id="confirm-password"
+            class="form-textbox"
+            required
+          />
+          <label for="confirm-password" class="form-label"
+            >Confirm Password</label
+          >
+          <span>Error message</span>
+        </div>
+        <div class="form-row submit">
+          <button class="form-submit">Sign Up</button>
+        </div>
+      </form>
+
+      <h2 class="form-message"></h2>
+    </main>
+    <p class="andi">
+      Challenge by
+      <a
+        href="https://saucecode.xyz/t/devtask-1-registration-page-design/131"
+        target="next"
+        >DevTask</a
+      >. Coded by
+      <a
+        href="https://andemosa.github.io/andemosa/"
+        target="next"
+        rel="noreferrer noopener"
+        >Andemosa</a
+      >.
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
